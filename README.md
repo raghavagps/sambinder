@@ -22,8 +22,8 @@ wget -c http://webs.iiitd.edu.in/gpsr2/sam_models.zip
 
 After downloading these folders, untar these folders in the present directory using the command
 ```
-• unzip blastpr.zip
-•	unzip sam_models.zip
+unzip blastpr.zip
+unzip sam_models.zip
 ```
 For users who want to do prediction by using our SAMbinder package:
 cd to the “SAMbinder” folder which contains SAMbinder.py. This is the main code which is used to run machine learning and do prediction of SAM interacting residue in a given target protein. It allows users to do prediction using 5 different machine learning models. For more information, run:
