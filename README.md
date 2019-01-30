@@ -28,7 +28,7 @@ For users who want to do prediction by using our SAMbinder package:
 cd to the “SAMbinder” folder which contains SAMbinder.py. This is the main code which is used to run machine learning and do prediction of SAM interacting residue in a given target protein. It allows users to do prediction using 5 different machine learning models. For more information, run:
 
 ```
-python SAMbinder.py -h
+python3 SAMbinder.py -h
 ```
 
 Examples for users to do SAM interacting residue prediction.
@@ -54,7 +54,7 @@ where,
 
 For more information type,
 ```
-python3 sambinder.py –help
+python3 sambinder.py –h
 ```
 
 In our package, we have provided 5 different machine learning models which utilizes different features. 
