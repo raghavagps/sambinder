@@ -4,7 +4,7 @@ Prediction of SAM binding sites
 SAMbinder is a Python-based tool for predicting SAM interacting residue in a protein chain. It comprises of number of machine learning models for example, SVC model, Random Forest model, Artificial Neural Network model, which is implemented using Scikit package. These models are developed using widely used features like (i) Binary Profile of patterns and (ii) Evolutionary Information in the form of PSSM matrix generated using PSI-BLAST.
 Results are produced in the form of propensity score in between value 0-9. Residues showing the propensity score equal or above the selected threshold are said to be “Interacting” whereas residues showing value lesser than selected threshold are said to be “Non-Interacting”. Prediction model developed using evolutionary information where SVC machine learning technique was implemented performed best in our study. 
 
-Installation
+# Installation
 
 Command for downloading SAMbinder
 ```
@@ -25,14 +25,16 @@ After downloading these folders, untar these folders in the present directory us
 unzip blastpr.zip
 unzip sam_models.zip
 ```
-For users who want to do prediction by using our SAMbinder package:
+# For users who want to do prediction by using our SAMbinder package
+
 cd to the “SAMbinder” folder which contains SAMbinder.py. This is the main code which is used to run machine learning and do prediction of SAM interacting residue in a given target protein. It allows users to do prediction using 5 different machine learning models. For more information, run:
 
 ```
 python3 sambinder.py -h
 ```
 
-Examples for users to do SAM interacting residue prediction.
+# Examples for users to do SAM interacting residue prediction.
+
 The input protein sequence for SAMbinder.py should be in fasta format. Please find the example in example folder. The following parameters are required by SAMbinder.py
 
 **COMMAND**
@@ -53,7 +55,7 @@ where,
 5. PSSM Random Forest
 
 
-For more information type,
+# For more information type,
 ```
 python3 sambinder.py –h
 ```
