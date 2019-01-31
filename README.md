@@ -1,4 +1,4 @@
-# sambinder
+# SAMbinder
 Prediction of SAM binding sites
 
 SAMbinder is a Python-based tool for predicting SAM interacting residue in a protein chain. It comprises of number of machine learning models for example, SVC model, Random Forest model, Artificial Neural Network model, which is implemented using Scikit package. These models are developed using widely used features like (i) Binary Profile of patterns and (ii) Evolutionary Information in the form of PSSM matrix generated using PSI-BLAST.
@@ -11,7 +11,7 @@ Command for downloading SAMbinder
 git clone https://github.com/raghavagps/sambinder
 ```
 
-SAMbinder is an open source Python based software, which operates depending on the Python environment (Python version 3.3 or above) and can be run on multi-OS systems (such as Windows, Linux and Mac operating systems). Before running SAMbinder, user should make sure of all the following packages are installed in their Python environment: sys, os, shutil, scipy, numpy(), pandas(), sklearn version 0.19.1, math and re. For convenience, we strongly recommend users to install the Anaconda Python 3.3 (or above) in their local machine. The software can be freely downloadable from https://www.anaconda.com/download/ .
+SAMbinder is an open source Python based software, which operates depending on the Python environment (Python version 3.3 or above) and can be run on multi-OS systems (such as Windows, Linux and Mac operating systems). Before running SAMbinder, user should make sure of all the following packages are installed in their Python environment: sys, wget, os, shutil, scipy, numpy(), pandas(), sklearn version 0.19.1, math and re. For convenience, we strongly recommend users to install the Anaconda Python 3.3 (or above) in their local machine. The software can be freely downloadable from https://www.anaconda.com/download/ .
 User also needs to download the model directories and blastpr floder in order to run the prediction. Please run the commands given below to download the model folders and blastpr folder
 
 **COMMANDS**
