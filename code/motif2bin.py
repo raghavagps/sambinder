@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #_*_coding:utf-8_*_
-
+import pandas as pd
 
 assign = {'A':[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
           'C':[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -26,23 +26,11 @@ assign = {'A':[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
 
 def motif2bin(seq1):
     seq=pd.DataFrame(seq1)
-    l=len(seq);
-    #print(seq);
-    
-    #print(type(seq));
-    binary=[]; # To store binary profile of all the motifs
+    l=len(seq);     
+    binary=[]; 
     for i in range(0,l):
-    
-        temp=[]; # To store binary profile of each motif
-        
+        temp=[]; 
         for j in range(0,len(seq.iloc[i][0])):
-            
-            #print(len(seq.iloc[i][0]))
-                
             temp.extend(assign[seq.iloc[i][0][j]])
-            #print('HELLO',j,i,seq.iloc[i][0][j],assign[seq.iloc[i][0][j]]);
-        
         binary.append(temp);
-        #binary1=pd.DataFrame(binary);
-    
     return binary;
