@@ -55,7 +55,7 @@ where,
 >6. PSSM Random Forest
 
 
-# For more information type,
+### For more information type the following command
 ```
 python3 sambinder.py –h
 ```
