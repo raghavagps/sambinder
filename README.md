@@ -4,6 +4,11 @@ Prediction of SAM binding sites
 SAMbinder is a Python-based tool for predicting SAM interacting residue in a protein chain. It comprises of number of machine learning models for example, SVC model, Random Forest model, Artificial Neural Network model, which is implemented using Scikit package. These models are developed using widely used features like (i) Binary Profile of patterns and (ii) Evolutionary Information in the form of PSSM matrix generated using PSI-BLAST.
 Results are produced in the form of propensity score in between value 0-9. Residues showing the propensity score equal or above the selected threshold are said to be “Interacting” whereas residues showing value lesser than selected threshold are said to be “Non-Interacting”. Prediction model developed using evolutionary information where SVC machine learning technique was implemented performed best in our study. 
 
+# Reference
+Agrawal P, Mishra G, Raghava G P S (2020) SAMbinder: A Web Server for Predicting S-Adenosyl-L-Methionine Binding Residues of a Protein From Its Amino Acid Sequence. <a href="https://www.frontiersin.org/article/10.3389/fphar.2019.01690"> Frontiers in Pharmacology 10:1690</a>
+# Web server
+https://webs.iiitd.edu.in/raghava/sambinder/
+
 # Installation
 
 Command for downloading SAMbinder
