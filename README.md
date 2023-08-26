@@ -9,6 +9,16 @@ Agrawal P, Mishra G, Raghava G P S (2020) SAMbinder: A Web Server for Predicting
 # Web server
 https://webs.iiitd.edu.in/raghava/sambinder/
 
+## PIP Installation
+PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
+```
+pip install sambinder
+```
+To know about the available option for the pip package, type the following command:
+```
+sambinder -h
+```
+
 # Installation
 
 Command for downloading SAMbinder
