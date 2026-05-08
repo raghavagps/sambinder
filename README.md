@@ -6,6 +6,10 @@ Results are produced in the form of propensity score in between value 0-9. Resid
 
 # Reference
 Agrawal P, Mishra G, Raghava G P S (2020) SAMbinder: A Web Server for Predicting S-Adenosyl-L-Methionine Binding Residues of a Protein From Its Amino Acid Sequence. <a href="https://www.frontiersin.org/article/10.3389/fphar.2019.01690"> Frontiers in Pharmacology 10:1690</a>
+
+# Zenodo
+https://doi.org/10.5281/zenodo.20034752
+
 # Web server
 https://webs.iiitd.edu.in/raghava/sambinder/
 
